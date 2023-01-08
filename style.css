@@ -1,0 +1,103 @@
+* {
+    box-sizing: border-box;
+}
+
+body {
+    margin: 0;
+}
+
+h2, h3, h5, h6 {
+    margin: 0;
+}
+
+#root {
+    display: flex;
+    justify-content: center;
+}
+
+.container {
+    border: 2px solid black;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    width: 300px;
+    background-color: #1A1B21;
+    border-radius: 8px;
+}
+
+.photo {
+    width: 300px;
+    border-radius: 8px 8px 0px 0px;
+}
+
+.buttons {
+    display: grid;
+    grid-template-columns: 1fr 1fr;
+    gap: 10px;
+    margin-bottom: 16px; 
+}
+
+.svg {
+    width: 20px;
+    margin-right: 4px;
+}
+
+.button {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    width: 115px;
+    height: 34px;
+    border: none;
+    border-radius: 6px;
+    padding: 9px 13px;
+}
+
+.linkedin {
+    background-color: #5093E2;
+}
+
+.name {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    gap: 5px;
+    padding: 30px 0px 20px 0px;
+}
+
+.name h2 {
+    color: #FFFFFF;
+}
+
+.name h5 {
+    color: #F3BF99;
+    font-weight: 400;
+}
+
+.name h6 {
+    color: #F5F5F5;
+    font-weight: 400;
+}
+
+.subtitle {
+    color: #F5F5F5;
+}
+
+p {
+    font-size: 12px;
+    color: #DCDCDC;
+}
+
+.main {
+    padding: 0px 20px;
+}
+
+.footer {
+    display: flex;
+    gap: 16px;
+    background-color: #161619;
+    padding: 16px;
+    width: 100%;
+    justify-content: center;
+    align-items: center;
+}
